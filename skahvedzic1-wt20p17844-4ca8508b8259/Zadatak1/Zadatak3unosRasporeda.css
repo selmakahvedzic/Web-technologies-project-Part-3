@@ -1,0 +1,57 @@
+body{
+    margin: 0; 
+    padding: 0;
+    text-align: center;
+    background-color: #b5c7dd;
+}
+
+@media only screen and (max-width:600px) {
+    label{
+        display: block;
+        margin-top: 15px;
+    } 
+    #nPredmet,
+     #Tip,
+      #vPocetak,
+       #vKraj,
+        #Dan {
+        margin: 5px 0px 15px 0px;
+    }  
+}
+@media only screen and (min-width:601px) {
+    #nPredmet {
+        margin: 15px 0px 0px 10px;
+    }    
+    #Tip {
+        margin: 20px 0px 0px 90px;
+    }    
+    #vPocetak {
+        margin: 20px 0px 0px 6px;
+    }    
+    #vKraj {
+        margin: 20px 0px 0px 24px;
+    }    
+    #Dan {
+        margin: 20px 0px 0px 85px;
+    }        
+}
+
+
+#nPredmet {
+    width:128px;
+}
+
+#Tip, #Dan {
+    width:135px;
+    height: 20px;
+}
+
+#vPocetak, #vKraj {
+    width:130px;
+}
+
+[type="submit"] {
+    clear: left;
+    margin: 15px 10px 0 100px;
+   
+    }

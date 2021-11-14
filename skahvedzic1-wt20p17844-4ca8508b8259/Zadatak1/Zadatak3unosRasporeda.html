@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="Zadatak3unosRasporeda.css">
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+  
+    <script src="/Zadatak1/Zadatak3ajax.js"></script>
+    <div id="myDiv">
+        <form name = "unosStudenta" action="http://localhost:3000/Zadatak3unosRasporeda.html" method="POST">
+            <label for="nPredmet">Naziv predmeta:</label>
+            <input type="text" id="nPredmet" name="nPredmet" placeholder="Web tehnologije"></br>
+            <label for="Tip">Tip:</label>
+            <select id="Tip" name="Tip">
+                <option value="Predavanje">Predavanje</option>
+                <option value="Vježba">Vježba</option>
+            </select></br>
+            <label for="vPocetak">Vrijeme početka:</label>
+            <input type="time" id="vPocetak" name="vPocetak"></br>
+            <label for="vKraj">Vrijeme kraja:</label>
+            <input type="time" id="vKraj" name="vKraj"></br>
+            <label for="Dan">Dan:</label>
+            <select id="Dan" name="Dan">
+                <option value="Ponedeljak">Ponedeljak</option>
+                <option value="Utorak">Utorak</option>
+                <option value="Srijeda">Srijeda</option>
+                <option value="Cetvrtak">Četvrtak</option>
+                <option value="Petak">Petak</option>
+                <option value="Subota">Subota</option>
+                <option value="Nedelja">Nedelja</option>
+            </select></br>
+            <input type="submit" id="vSubmit" name="submit" value="Potvrdi" onclick="posaljiAjax()"> </br>
+        </form>
+    </div>
+   
+</body>
+
+</html>

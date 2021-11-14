@@ -1,0 +1,27 @@
+{
+  "name": "wt20p17844",
+  "version": "1.0.0",
+  "description": "**NAPOMENA: Testiranje**\r Testiranje sam vršila tako što sam pratila upustva sa ove stranice: https://mochajs.org/.\r Dakle instalirala sam sa ' npm install --save-dev mocha'. U package.json dodala: \r \"scripts\": {\r   \"test\": \"mocha\"\r }\r Testove pokrećem sa 'npm test'.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://skahvedzic1@bitbucket.org/skahvedzic1/wt20p17844.git"
+  },
+  "author": "Selma Kahvedzic",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/skahvedzic1/wt20p17844#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5",
+    "validator": "^13.5.2",
+    "xmlhttprequest": "^1.8.0"
+  }
+}

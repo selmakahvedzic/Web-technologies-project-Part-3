@@ -1,0 +1,28 @@
+body{
+    margin: 1%; 
+    padding: 0;
+    text-align: center;
+    background-color: #b5c7dd;
+}
+
+
+
+
+#Student {
+    width:150px;
+    margin: 5px;
+    
+}
+
+#Grupa{
+    width:100px;
+    height: 20px;
+    margin: 5px;
+}
+
+
+[type="submit"] {
+    clear: left;
+    margin: 15px 10px 0 100px;
+   
+    }

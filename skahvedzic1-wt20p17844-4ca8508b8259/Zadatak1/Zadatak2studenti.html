@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Unos studenta</title>
+    <link rel="stylesheet" type="text/css" href="Zadatak2student.css">
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+  
+  <script language="JavaScript" type="text/javascript" src="/Zadatak1/Zadatak2ajax.js"></script>
+    <div id="myDiv">
+        <form action="http://localhost:3000/Zadatak1/Zadatak3studenti.html" method="POST">
+            <label for="Student">Ime, prezime, indeks:</label>
+            <input type="text" id="Student" name="Student" placeholder="Selma Kahvedžić, 17844"></br>
+            <label for="Grupa">Grupa:</label>
+            <select id="Grupa" name="Grupa">
+                <option value="G1">G1</option>
+                <option value="G2">G2</option>
+                <option value="G3">G3</option>
+                <option value="G4">G4</option>
+                <option value="G5">G5</option>
+            </select></br>
+            <input type="submit" id="vSubmit" name="submit" value="Potvrdi" onclick="posaljiZahtjev()"> </br>
+        </form>
+    </div>
+
+
+   
+</body>
+
+</html>
